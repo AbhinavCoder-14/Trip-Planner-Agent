@@ -3,10 +3,6 @@ import './App.css';
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
-import "dotenv/config";
-
-
-
 const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
 
 interface TravelPlanResponse {
